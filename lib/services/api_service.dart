@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   // Live Render backend URL
-  static const String baseUrl = 'https://ai-careerpilot.onrender.com';
+static const String baseUrl = 'https://ai-careerpilot-u1sa.onrender.com';
 
   static Future<Map<String, dynamic>> analyzeResume({
     required String targetRole,
