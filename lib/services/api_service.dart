@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:file_picker/file_picker.dart';
-
-class ApiService {
-  static const String baseUrl = 'http://127.0.0.1:8000';
+ ApiService {
+  static const String baseUrl = 'https://ai-careerpilot.onrender.com';
+  // ... rest of your code
+}
 
   // 1. Resume Gap & Career Fit Scan
   static Future<Map<String, dynamic>> analyzeResume({
