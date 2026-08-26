@@ -5,7 +5,8 @@ python-multipart>=0.0.9
 python-jose[cryptography]>=3.3.0
 passlib[bcrypt]>=1.7.4
 PyPDF2>=3.0.1
-google-genai>=1.0.0
+google-generativeai
 python-dotenv>=1.0.1
 PyMuPDF
 Pillow
+duckduckgo-search
